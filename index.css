@@ -1,25 +1,35 @@
 *{
     box-sizing: border-box;
-
 }
 .btn{
     font-size: 18px;
 }
 .navbar-top{
     background: #0d6efd;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    z-index: 1;
+
     
 }
 .nav-link{
     color: aliceblue!important;
 }
+.nav-link:hover{
+    background-color: #fff;
+    color: #0d6efd!important;
+}
 .navbar-home{
     align-items: center;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 130px;
 }
 .navbar-brand{
     color: #fff!important;
 }
+
 .navbar{
     display: flex;
     align-items: center;
@@ -32,6 +42,18 @@ li{
     color: black;
     font-size: 18px;
     text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+}
+.nav-link-item:hover{
+    color:#fff;
+    background-color: #0d6efd;
+    width: 10px;
+    height: 10px;
 }
 
 .ferst-title {
@@ -51,6 +73,11 @@ li{
 }
 .first-img-item {
     width: 100%;
+    border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
 }
 
 .two-section {
@@ -123,4 +150,15 @@ img{
 .for-item-description{
     font-size: 18px;
 }
+.icomic{
+    margin-left: 10px;
+    padding-right: 10px;
+}
 
+#Contacts{
+    width: 85%;
+    margin: 10px;
+}
+.form-check{
+    text-align: left;
+}
